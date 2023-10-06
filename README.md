@@ -4,9 +4,9 @@ This is a basic Solidity smart contract .
 
 ## DESCIRPTION
 This Solidity smart contract contains several features to manage a custom token. It includes two public variables: 
-One for the token's name. (hello)
-Another for its abbreviation. (nice)
-The contract also has a variable that keeps track of the total token supply. 
+1. One for the token's name. (hello)
+2. Another for its abbreviation. (nice)
+3. The contract also has a variable that keeps track of the total token supply. 
 To manage user balances, there is a mapping variable named "balances" that connects addresses with their corresponding token balances.
 The contract provides two essential functions: 
 "mint" and "burn." 
